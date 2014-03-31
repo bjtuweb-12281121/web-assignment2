@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    	
+        <script src="baidu.js"></script>
+        <link rel="stylesheet" href="baidu.css" type="text/css" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>百度一下,你就知道</title>
+    
+    </head>
+    
+    <body background="bk.jpg">
+        <div id = "tot">
+            <div id = "up" style="width:720px">
+                <p id = "logo">
+                    <img src="logo_redBlue.png" width="270" height="129"/>
+                </p>
+                
+                <p id = "items">
+                	<a href = "http://news.baidu.com/">新闻</a>
+                    <b>网页</b>
+                    <a href = "http://tieba.baidu.com/">贴吧</a>
+                    <a href = "http://zhidao.baidu.com/">知道</a>
+                    <a href = "http://music.baidu.com/">音乐</a>
+                    <a href = "http://image.baidu.com/">图片</a>
+                    <a href = "http://v.baidu.com/">视频</a>
+                    <a href = "http://map.baidu.com/">地图</a>
+                    <a href = "http://baike.baidu.com/">百科</a>
+                    <a href = "http://wenku.baidu.com/">文库</a>
+                    <a href = "http://www.baidu.com/more/">更多>></a>
+                </p>
+                
+                <div id = "inputBlock">
+                  <input type="text" id="in" style="width:474px" maxlength="100" autocomplete="off" value=""/>
+                  <button type = "button" class="sub" onClick="doit()"> 百度一下 </button>
+                </div>
+        	</div>
+            
+            <p class="cut" id="CCut">&nbsp;</p>
+            	
+            <div id="main">
+            	<div class = "add" id = "fi">
+                	<a class="closeSec"  href="javascript:void(0)" onClick="HideFi()" title="隐藏">Hide</a>
+                </div>
+            </div>
+            
+            <button type="button" id="addbtn" onClick="addModule()">AddModule</button>
+            
+            <div id = "bottom">
+            	<p id = "mainPage">
+                	<a href="http://www.baidu.com/cache/sethelp/index.html">把百度设为主页</a>
+                </p>
+                
+                <div id="inTro">
+                	<a href = "http://e.baidu.com/?refer=888">加入百度推广</a>
+                     | 
+                    <a href="http://top.baidu.com/">搜索风云榜</a>
+                     | 
+                    <a href="http://home.baidu.com/">关于百度</a>
+                     | 
+                    <a href="http://ir.baidu.com">About Baidu</a>
+                     | 
+                    <a href="http://www.baidu.com/home/p/open">加入开放首页</a>
+                </div>
+                
+                <div id="inTro2">
+                	"©2014 Baidu "
+                    <a href="http://www.baidu.com/duty/">使用百度前必读</a>
+                    <span>京ICP证030173号</span>
+                    <em>&nbsp;&nbsp;&nbsp;&nbsp;</em>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
